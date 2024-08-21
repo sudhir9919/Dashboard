@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Sidebar and main content container -->
+    <div class="flex min-h-screen">
+        <!-- Sidebar -->
+        <div class="w-64 bg-gray-800  max-md:hidden">
+            <!-- Dashboard text wrapper -->
+            <div class="flex justify-center items-center h-20 bg-gray-900">
+                <h1 class="text-white text-2xl">Dashboard</h1>
+            </div>
+            <nav class="mt-5 ">
+                <a href="#" class="flex mt-2 items-center py-2 px-6 bg-gray-700 text-gray-100 hover:text-gray-400">
+                    <img src="./assets/Dashboard.png" class="w-6 h-6" alt="">
+                    <span class="mx-3">Dashboard</span>
+                </a>
+                <a href="#" class="flex mt-2  items-center py-2 px-6 hover:bg-gray-700 text-gray-100 hover:text-gray-400">
+                    <img src="./assets/Teams.png" class="w-6 h-6" alt="">
+                    <span class="mx-3">Team</span>
+                </a>
+                <a href="#" class="flex mt-2 items-center py-2 px-6 hover:bg-gray-700 text-gray-100 hover:text-gray-400">
+                    <img src="./assets/projects.png" class="w-6 h-6" alt="">
+                    <span class="mx-3">Project</span>
+                </a>
+                <a href="#" class="flex mt-2 items-center py-2 px-6 hover:bg-gray-700 text-gray-100 hover:text-gray-400">
+                    <img src="./assets/calender.png" class="w-6 h-6" alt="">
+                    <span class="mx-3">Calender</span>
+                </a>
+                <a href="#" class="flex mt-2 items-center py-2 px-6 hover:bg-gray-700 text-gray-100 hover:text-gray-400">
+                    <img src="./assets/documents.png" class="w-6 h-6" alt="">
+                    <span class="mx-3">Documents</span>
+                </a>
+                <a href="#" class="flex mt-2 items-center py-2 px-6 hover:bg-gray-700 text-gray-100 hover:text-gray-400">
+                    <img src="./assets/reports.png" class="w-6 h-6" alt="">
+                    <span class="mx-3">Reports</span>
+                </a>
+            </nav>
+            <div class="mt-[120px]">
+                <p class="text-white ml-6">Your teams</p>
+                <a href="#" class="flex mt-3 items-center py-2 px-6 hover:bg-gray-700 text-gray-100 hover:text-gray-400">
+                    <img src="./assets/Teams.png" class="w-6 h-6" alt="">
+                    <span class="mx-3">Team</span>
+                </a>
+                <a href="#" class="flex mt-3 items-center py-2 px-6 hover:bg-gray-700 text-gray-100 hover:text-gray-400">
+                    <img src="./assets/projects.png" class="w-6 h-6" alt="">
+                    <span class="mx-3">Project</span>
+                </a>
+                <a href="#" class="flex mt-3 items-center py-2 px-6 hover:bg-gray-700 text-gray-100 hover:text-gray-400">
+                    <img src="./assets/calender.png" class="w-6 h-6" alt="">
+                    <span class="mx-3">Calender</span>
+                </a>
+            </div>
+        </div>
+        <div class="w-full">
+            <div class="bg-white p-4 md:p-6 flex justify-between items-center rounded-lg shadow-lg  transition-shadow duration-500 ease-in-out hover:shadow-none">
+                <div class="flex justify-center items-center gap-5">
+                <img src="./assets/profile.png" class="w-6 h-6" alt="">
+               <p>Profile</p>
+                </div>
+               <div class="flex justify-center items-center gap-5">
+                <img src="./assets/search.png" class="w-6 h-6" alt="">
+                <img src="./assets/notification.png" class="w-6 h-6" alt="">
+               </div>
+            </div>
+        </div>
+        <!--FOOTER SIDEBAR-->
+        <div>
+
+        </div>
+        <!-- Main Content -->
+        <!-- <div class="flex flex-col w-full"> -->
+            <!-- Navbar -->
+            <!-- <header class="flex items-center bg-white px-4 h-16"> -->
+                <!-- Sidebar button -->
+                <!-- <button class="md:hidden py-2 border rounded-md text-gray-600 border-gray-300">
+                    <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 18H10" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M4 12L16 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                
+                <div class="ml-auto flex items-center ">
+                    <button class="flex items-center px-4 py-2 border rounded-md text-gray-600 border-gray-600 ">
+                        <span class="mr-2 hover:shadow-none">Sign Out</span>
+                    </button>
+                </div>
+            </header> -->
+            <!--content-->
+            <!-- <main class="p-4 md:p-6"> -->
+                <!---Card Wrapper-->
+                 <!-- <div class="flex flex-wrap gap-5"> -->
+                    <!--card1-->
+                    <!-- <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg min-w-[40%] transition-shadow duration-500 ease-in-out hover:shadow-none">
+                        <h3 class="text-xl font-semibold mb-4">Revenue</h3>
+                        <p class="text-gray-600 text-3xl">$12,000</p>
+                    </div>
+                    <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg min-w-[40%] transition-shadow duration-500 ease-in-out hover:shadow-none ">
+                        <h3 class="text-xl font-semibold mb-4">Users</h3>
+                        <p class="text-gray-600 text-3xl">$5,000</p>
+                    </div>
+                    <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg min-w-[40%] transition-shadow duration-500 ease-in-out hover:shadow-none">
+                        <h3 class="text-xl font-semibold mb-4">Sales</h3>
+                        <p class="text-gray-600 text-3xl">$4512</p>
+                    </div>
+                    <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg min-w-[40%] transition-shadow duration-500 ease-in-out hover:shadow-none">
+                        <h3 class="text-xl font-semibold mb-4">Margin</h3>
+                        <p class="text-gray-600 text-3xl">$6012</p>
+                    </div>
+                 </div>
+
+
+                 <div class="mt-8">
+                     <div class="flex items-center justify-between">
+                        <h2 class="text-xl font-semibold text-gray-700">Recent activities</h2>
+                        <button class="py-2 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700">View All</button>
+                     </div>
+
+                     <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg mt-4 overflow-x-auto">
+                        <table class="w-full">
+                            <thead >
+                                <tr class="text-left border-bottom">
+                                    <th class="py-2">Date</th>
+                                    <th class="py-2">Activity</th>
+                                    <th class="py-2">Status</th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                <tr class="border-b">
+                                     <td class="py-2">01/01/2024</td>
+                                     <td class="py-2">LoggedIn</td>
+                                     <td class="py-2 text-green-600">Completed</td>
+                                </tr>
+                                <tr class="border-b">
+                                     <td class="py-2">01/01/2024</td>
+                                     <td class="py-2">LoggedIn</td>
+                                     <td class="py-2 text-green-600">Completed</td>
+                                </tr>
+                                <tr class="border-b">
+                                     <td class="py-2">01/01/2024</td>
+                                     <td class="py-2">LoggedIn</td>
+                                     <td class="py-2 text-yellow-600">Pending</td>
+                                </tr>
+                                <tr class="border-b">
+                                     <td class="py-2">01/01/2024</td>
+                                     <td class="py-2">LoggedIn</td>
+                                     <td class="py-2 text-green-600">Completed</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                     </div>
+
+                     <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg h-64 mt-8">
+                         <h3 class=" text-xl font-semibold mb-4">Activity Field</h3>
+                         <div class="overflow-y-scroll h-[80%]">
+                            <div class="flex items-center mb-4">
+                                <div class="w-10 h-10 pl-3 rounded-full bg-blue-600 flex items-center justify-between text-white">
+                                    JD
+                                </div>
+                                <div class="ml-4">
+                                    <P class="font-semibold">John Doe</P>
+                                    <P class="text-gray-600">LoggedIn</P>
+                                </div>
+
+                            </div>
+                            <div class="flex items-center mb-4">
+                                <div class="w-10 h-10 rounded-full bg-red-600 flex items-center pl-3 justify-between text-white">
+                                    JD
+                                </div>
+                                <div class="ml-4">
+                                    <P class="font-semibold">John Doe</P>
+                                    <P class="text-gray-600">LoggedIn</P>
+                                </div>
+
+                            </div>
+                            <div class="flex items-center mb-4">
+                                <div class="w-10 h-10 rounded-full bg-orange-600 flex items-center pl-3 justify-between text-white">
+                                    JD
+                                </div>
+                                <div class="ml-4">
+                                    <P class="font-semibold">John Doe</P>
+                                    <P class="text-gray-600">LoggedIn</P>
+                                </div>
+
+                            </div>
+                            <div class="flex items-center mb-4">
+                                <div class="w-10 h-10 rounded-full bg-green-600 flex items-center pl-3 justify-between text-white">
+                                    JD
+                                </div>
+                                <div class="ml-4">
+                                    <P class="font-semibold">John Doe</P>
+                                    <P class="text-gray-600">LoggedIn</P>
+                                </div>
+
+                            </div>
+                            <div class="flex items-center mb-4">
+                                <div class="w-10 h-10 rounded-full bg-gray-600 flex items-center pl-3 justify-between text-white">
+                                    JD
+                                </div>
+                                <div class="ml-4">
+                                    <P class="font-semibold">John Doe</P>
+                                    <P class="text-gray-600">LoggedIn</P>
+                                </div>
+
+                            </div>
+                            <div class="flex items-center mb-4">
+                                <div class="w-10 h-10 rounded-full bg-teal-600 flex items-center pl-3 justify-between text-white">
+                                    JD
+                                </div>
+                                <div class="ml-4">
+                                    <P class="font-semibold">John Doe</P>
+                                    <P class="text-gray-600">LoggedIn</P>
+                                </div>
+
+                            </div>
+
+                         </div>
+                     </div>
+                 </div>
+            </main>
+        </div> -->
+          
+    </div>
+</body>
+</html>
